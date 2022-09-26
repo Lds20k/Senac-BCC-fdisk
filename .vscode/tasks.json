@@ -12,6 +12,29 @@
                 "kind": "build",
                 "isDefault": true
             },
+        },
+        {
+            "label": "valgrind",
+            "type": "shell",
+            "command": "valgrind",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "args": [
+                "--leak-check=full",
+                "--show-leak-kinds=all",
+                "--track-origins=yes",
+                "--verbose",
+                "--log-file=/bin/valgrind-out.txt",
+                "${workspaceFolder}/bin/fdisk-bcc",
+                "-l",
+                "${workspaceFolder}/bin/mbr.bin"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }

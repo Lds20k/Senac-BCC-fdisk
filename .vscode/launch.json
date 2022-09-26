@@ -5,6 +5,9 @@
         "type": "cppdbg",
         "request": "launch",
         "program": "${workspaceFolder}/bin/fdisk-bcc",
+        "args": [
+          "-l ${workspaceFolder}/bin/mbr.bin"
+        ],
         "stopAtEntry": false,
         "cwd": "${workspaceFolder}",
         "launchCompleteCommand": "exec-run",

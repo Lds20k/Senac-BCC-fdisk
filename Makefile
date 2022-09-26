@@ -8,7 +8,7 @@ fdisk-bcc-debug: bin/main.o
 	gcc $(std) -O0 -o bin/fdisk-bcc bin/main.o -g -W -Wall -pedantic
 
 bin/main.o: main.c bin
-	gcc $(std) -O0 -o bin/main.o main.c -c -W -Wall -pedantic
+	gcc $(std) -O0 -o bin/main.o main.c -g -c -W -Wall -pedantic
 
 bin:
 	mkdir bin
