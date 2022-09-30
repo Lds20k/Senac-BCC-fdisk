@@ -1,5 +1,19 @@
 {
     "files.associations": {
-        "string_view": "c"
+        "string_view": "c",
+        "*.tcc": "c",
+        "memory_resource": "c",
+        "memory": "c",
+        "fstream": "c",
+        "istream": "c",
+        "ostream": "c",
+        "streambuf": "c",
+        "system_error": "c",
+        "array": "c",
+        "functional": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "initializer_list": "c"
     }
 }
