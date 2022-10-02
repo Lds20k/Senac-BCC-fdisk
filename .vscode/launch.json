@@ -1,12 +1,14 @@
 {
     "configurations": [
+
       {
-        "name": "gdb: launch",
+        "name": "gdb: launch -l bin/mbr.bin",
         "type": "cppdbg",
         "request": "launch",
         "program": "${workspaceFolder}/bin/fdisk-bcc",
         "args": [
-          "-l ${workspaceFolder}/bin/mbr.bin"
+          "-l",
+          "bin/mbr.bin"
         ],
         "stopAtEntry": false,
         "cwd": "${workspaceFolder}",

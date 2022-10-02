@@ -6,4 +6,3 @@
 !.vscode/*.code-snippets
 
 bin/*
-!bin/mbr.bin

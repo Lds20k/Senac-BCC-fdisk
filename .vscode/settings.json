@@ -14,6 +14,22 @@
         "tuple": "c",
         "type_traits": "c",
         "utility": "c",
-        "initializer_list": "c"
+        "initializer_list": "c",
+        "*.inc": "c",
+        "atomic": "c",
+        "bit": "c",
+        "cmath": "c",
+        "compare": "c",
+        "concepts": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "exception": "c",
+        "algorithm": "c",
+        "random": "c",
+        "iosfwd": "c",
+        "limits": "c",
+        "new": "c",
+        "numeric": "c",
+        "typeinfo": "c"
     }
 }

@@ -11,7 +11,7 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
+            }
         },
         {
             "label": "valgrind",
@@ -26,15 +26,11 @@
                 "--show-leak-kinds=all",
                 "--track-origins=yes",
                 "--verbose",
-                "--log-file=/bin/valgrind-out.txt",
+                //"--log-file=/bin/valgrind-out.txt",
                 "${workspaceFolder}/bin/fdisk-bcc",
                 "-l",
                 "${workspaceFolder}/bin/mbr.bin"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            ]
         }
     ]
 }
